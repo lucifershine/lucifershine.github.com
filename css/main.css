@@ -10,7 +10,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 
 .iconfont{
     font-family:"iconfont" !important;
-    font-size:18px;font-style:normal;
+    font-size:14px;font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -24,8 +24,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
     
 nav{
 	position: fixed;
-	height: 60px;	
-	line-height: 60px;
+	height: 40px;	
+	line-height: 40px;
 	width: 100%;
 	z-index: 9999;
 }
@@ -41,7 +41,7 @@ nav a#logo{
 	float: left;
 	color: #FFF;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: 600;
 	font-style: italic;
 	font-family: arial;
@@ -57,17 +57,17 @@ nav ul li{
 	transition: all 500ms;
 	color: #FFF;
 	font-family: "microsoft yahei";
-	font-size: 20px;
+	font-size: 14px;
 	text-align: center;
 	cursor: pointer;
 }
 nav ul li:hover{
 	color: aqua;
-	font-size: 22px;
+	font-size: 18px;
 }
 #banner{
 	background: transparent;
-	height: 800px;
+	height: 530px;
 }
 .hr{
 	height: 2px;
@@ -75,45 +75,46 @@ nav ul li:hover{
 	margin: 0 auto;
 }
 #banner .inner{
-	max-width: 600px;
-	height: 500px;
+	max-width: 400px;
+	height: 330px;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 300px;
+	top: 200px;
 }
 #banner .inner h1{
-	margin: 40px;	
+	margin: 20px;	
 	color: #FFF;
 	font-family: "microsoft yahei";
 	letter-spacing: 5px;
-	font-size: 50px;
+	font-size: 30px;
 }
-#banner .inner h3{
+#banner .inner h4{
 	text-indent: 2em;
 	font-family: "microsoft yahei";
-	letter-spacing: 3px;
-	line-height: 50px;
+	letter-spacing: 2px;
+	line-height: 30px;
 	color: #FFF;
-	margin-top: 40px;
-	text-align: left;
+	font-size: 12px;
+	margin-top: 30px;
+	text-align: left;	
 }
 #banner .inner p{
 	font-family: "microsoft yahei";
 	text-align: right;
-	letter-spacing: 3px;
-	line-height: 50px;
+	letter-spacing: 2px;
+	line-height: 30px;
 	color: #FFF;
 }
 #banner .inner .enter{
 	box-shadow: 0 0 60px orangered;
 	border-radius: 10px;	
-	margin: 10px auto 0;
-	height: 50px;
-	line-height: 50px;
-	width: 40%;
+	margin: 40px auto 0;
+	height: 30px;
+	line-height: 30px;
+	width: 55%;
 	color: #FFF;
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: 5px;
 	font-family: arial;
 	font-weight: 700;
@@ -125,7 +126,7 @@ nav ul li:hover{
 	box-shadow: 0 0 40px orangered inset;
 	background: #bfdbc9;
 	color: #1c1919;
-	font-size: 30px;
+	font-size: 20px;
 }
 #banner .inner a{
 	text-decoration: none;
@@ -135,43 +136,44 @@ nav ul li:hover{
 	text-align: center;
 	background: rgba(0,0,0,0.6);
 	color: #FFF;
-	padding: 120px;
+	padding: 90px;
 }
 .wrapper{
-	width: 800px;
+	width: 530px;
 	margin: 0 auto;
 }
 .wrapper h2{
 	margin: 0;
-	font-size: 35px;
+	font-size: 25px;
+	font-family: "microsoft yahei";
 }
 .wrapper .hr{
-	margin: 35px 60px;
+	margin: 25px 20px;
 }
 .wrapper .sub-text{
-	font-size: 20px;
-	padding: 0 60px;
+	font-size: 15px;
+	padding: 0 30px;
 }
 .green-section .icon-group{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .green-section .icon-group .icon{
 	display: inline-block;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
 	transform: rotate(45deg);
 	-ms-transform:rotate(45deg); /* Internet Explorer */
 	-moz-transform:rotate(45deg); /* Firefox */
 	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
 	-o-transform:rotate(45deg); /* Opera */
-	margin: 25px;
+	margin: 20px;
 	background: #0D6F7C;
 	text-align: center;
 }
 .icon-group i{
 	display: inline-block;
-	font-size: 30px;
+	font-size: 16px;
 	transform: rotate(-45deg);
 }
 .gray-section{
@@ -212,26 +214,26 @@ img[src="img/lsjy03.jpg"]:hover{
 	color: #FFF;
 }
 .text-section h2{
-	font-size: 50px;
+	font-size: 35px;
 	text-align: center;
-	margin:130px  auto 0;
+	margin: 80px auto 0;
 }
 .sub-heading{	
-	font-size: 25px;
-	line-height: 35px;
+	font-size: 18px;
+	line-height: 22px;
 	text-indent: 2em;
-	margin: 35px auto 0;
+	margin: 20px auto 0;
 	font-family: "microsoft yahei";
 }
 .text-section h2,.text-section p{
-	width: 350px;
+	width: 230px;
 	letter-spacing: 3px;
 	font-family: "microsoft yahei";
 }
 .purple-section{
 	background: transparent;
 	color: #FFF;
-	padding: 100px;
+	padding: 80px;
 }
 .head-wrapper h2{
  font-family: "microsoft yahei" ;
@@ -239,19 +241,19 @@ img[src="img/lsjy03.jpg"]:hover{
  text-align: center;
 }
 .head-wrapper .hr{
-	margin: 45px 200px;
+	margin: 32px 120px;
 }
 .head-wrapper .sub-heading{
-	margin: 30px 120px;
+	margin: 30px 60px;
 }
 .card-group{
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .card{
-	width: 47%;
+	width: 45%;
 	display: inline-block;
-	height: 300px;
+	height: 200px;
 	border: 10px solid #FFF;
 	margin-top: 8px;
 
@@ -259,7 +261,7 @@ img[src="img/lsjy03.jpg"]:hover{
 .card a{
 	display: inline-block;
 	width: 100%;
-	height: 300px;
+	height: inherit;
 	overflow: hidden;
 	-webkit-perspective:150;
 }
@@ -288,6 +290,11 @@ img[src="img/lsjy03.jpg"]:hover{
 	width: 100%;
 	height: 500px;
 }
+.site-sharing h1{
+	font-family: "microsoft yahei";
+	margin-top: 200px;
+	text-align: center;
+}
 .site-sharing #mycanvashr{
 	margin: 0 auto;
 }
@@ -296,19 +303,19 @@ footer{
 	opacity: 0.8;
 	text-align: center;
 	color: #FFF;
-	padding: 30px;
+	padding: 20px;
 }
 .share-group{
-	width: 600px;
+	width: 400px;
 	margin: 0 auto;
 	list-style: none;
 } 
 .share-group li{
 	display: inline-block;
-	margin: 20px;
+	margin: 10px;
 }
 .share-group li a{
-	font-size: 45px;
+	font-size: 30px;
 	color: #FFF;
 	text-decoration: none;
 	transition: all 0.4s;
@@ -319,42 +326,43 @@ footer{
 .copy{
 	width: 600px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 70px;
+	font-size: 10px;
 }
 #siderbar{	
 	position: fixed;
-	top: 70px;
-	right: -200px;
-	width: 200px;																																																																																																																																																																																																																																								
+	top: 50px;
+	right: -130px;
+	width: 130px;																																																																																																																																																																																																																																								
 	background: rgba(118,104,104,0.7);
-	border-radius: 20px 0 0 20px;
+	border-radius: 15px 0 0 15px;
 	color: #FFF;
 }
 #siderbar ul{
 	list-style: none;
 }
 #siderbar ul li{
-	border: 3px solid #766868;
+	border: 2px solid #766868;
 	border-left: none;
 	border-top: none;
 	border-right: none;
-	height: 80px;
-	line-height: 80px;
+	height: 60px;
+	line-height: 60px;
 	cursor: pointer;
 }
 #siderbar ul li:nth-child(1){
-	border-top-left-radius: 20px;
+	border-top-left-radius: 15px;
 }
 #siderbar ul li:nth-child(4){
 	border-bottom: none;
-	border-bottom-left-radius: 20px;
+	border-bottom-left-radius: 15px;
 }
 #siderbar a{
 	display: inline-block;
 	text-decoration: none;
 	color: rgba(255,255,255,0.7);
 	font-family: "microsoft yahei";
-	font-size: 25px;
+	font-size: 18px;
 	margin-left: 20%;
 }
 #siderbar .active{
@@ -375,13 +383,13 @@ footer{
 	position: fixed;
 	bottom: 50px;
 	right: 50px;
-	border-radius: 40px;
+	border-radius: 50%;
 	background: rgba(116,107,107,1);
-	width: 80px;
-	height: 80px;
-	line-height: 80PX;
+	width: 50px;
+	height: 50px;
+	line-height: 50PX;
 	text-align: center;
-	font-size: 40px;
+	font-size: 20px;
 	cursor: pointer;
 	transition: background 0.3s,color 0.3s;
 }

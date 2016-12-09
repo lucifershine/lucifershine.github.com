@@ -4,18 +4,18 @@
 				var mask=$(".mask");
 				var siderbar_trigger=$(".siderbar_trigger");
 				siderbar_trigger.click(function(){
-					if (siderbar.css("right")=="-200px") {
+					if (siderbar.css("right")=="-130px") {
 						mask.fadeIn(300);
 						siderbar.animate({right:"0"},300);
 					} else{
 						mask.fadeOut(300);
-						siderbar.animate({right:"-200"},300);
+						siderbar.animate({right:"-130"},300);
 					}
 					
 				})
 				mask.click(function(){
 					mask.fadeOut(300);
-					siderbar.animate({right:"-200"},300);
+					siderbar.animate({right:"-130"},300);
 				})
 
 				$("#siderbar ul li").mouseover(function(){
@@ -58,7 +58,7 @@
 			
 
 			var WINDOW_WIDTH=document.body.clientWidth;
-			var WINDOW_HEIGHT=40;
+			var WINDOW_HEIGHT=30;
 			var mycanvashr=document.getElementById("mycanvashr");
 			if (mycanvashr.getContext) {
 					ctx=mycanvashr.getContext("2d");
@@ -67,17 +67,15 @@
 				}
 				mycanvashr.width=WINDOW_WIDTH;
 				mycanvashr.height=WINDOW_HEIGHT;	
-			for(i=0;i<WINDOW_WIDTH/40-1;i++){
+			for(i=0;i<WINDOW_WIDTH/25-1;i++){
 				ctx.beginPath();
-				ctx.rect(11+i*40,10,30,20);
+				ctx.rect(6+i*25,8,20,12);
 				var r=Math.floor(Math.random()*256);
 				var g=Math.floor(Math.random()*256);
 				var b=Math.floor(Math.random()*256);
    			var	a=Math.random()*1;
-   			var singleColor = "rgba("+r+","+g+","+b+","+a+")"
-   			console.log(singleColor);			
+   			var singleColor = "rgba("+r+","+g+","+b+","+a+")"		
 				ctx.fillStyle=singleColor;
 				ctx.fill();				
 			}
-//			mycanvashr.addEventListener('mousemove',updatecanvashr,false)
 			
